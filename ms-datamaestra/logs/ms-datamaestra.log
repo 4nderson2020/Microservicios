@@ -1,0 +1,649 @@
+"2020-01-27 18:20:02 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Starting MsDatamaestraApplication on MIN-S18025478 with PID 12836 (D:\Aplicativo\ms-datamaestra\target\classes started by acajusol in D:\Aplicativo\ms-datamaestra)
+""2020-01-27 18:20:02 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - No active profile set, falling back to default profiles: default
+""2020-01-27 18:20:02 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-01-27 18:20:02 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 13 JPA repository interfaces.
+""2020-01-27 18:20:02 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-01-27 18:20:03 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2020-01-27 18:20:03 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+""2020-01-27 18:20:03 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-01-27 18:20:03 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-92].[localhost].[/datamaestra] - Initializing Spring embedded WebApplicationContext
+""2020-01-27 18:20:03 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 643 ms
+""2020-01-27 18:20:03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-252 - Starting...
+""2020-01-27 18:20:03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-252 - Start completed.
+""2020-01-27 18:20:03 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-01-27 18:20:03 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+""2020-01-27 18:20:03 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-01-27 18:20:03 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:20:03 [restartedMain] INFO  org.dozer.DozerBeanMapper - Initializing a new instance of dozer bean mapper.
+""2020-01-27 18:20:03 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-01-27 18:20:03 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoint(s) beneath base path '/actuator'
+""2020-01-27 18:20:03 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+""2020-01-27 18:20:03 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-01-27 18:20:03 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-01-27 18:20:03 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+""2020-01-27 18:20:03 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+""2020-01-27 18:20:03 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+""2020-01-27 18:20:03 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/datamaestra'
+""2020-01-27 18:20:03 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Started MsDatamaestraApplication in 1.526 seconds (JVM running for 435886.7)
+""2020-01-27 18:20:03 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-01-27 18:22:13 [Thread-1390] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-01-27 18:22:13 [Thread-1390] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:22:13 [Thread-1390] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-252 - Shutdown initiated...
+""2020-01-27 18:22:13 [Thread-1390] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-252 - Shutdown completed.
+""2020-01-27 18:22:14 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Starting MsDatamaestraApplication on MIN-S18025478 with PID 12836 (D:\Aplicativo\ms-datamaestra\target\classes started by acajusol in D:\Aplicativo\ms-datamaestra)
+""2020-01-27 18:22:14 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - No active profile set, falling back to default profiles: default
+""2020-01-27 18:22:15 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-01-27 18:22:15 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 13 JPA repository interfaces.
+""2020-01-27 18:22:15 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-01-27 18:22:15 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2020-01-27 18:22:15 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+""2020-01-27 18:22:15 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-01-27 18:22:15 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-92].[localhost].[/datamaestra] - Initializing Spring embedded WebApplicationContext
+""2020-01-27 18:22:15 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 562 ms
+""2020-01-27 18:22:15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-253 - Starting...
+""2020-01-27 18:22:15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-253 - Start completed.
+""2020-01-27 18:22:15 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-01-27 18:22:15 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+""2020-01-27 18:22:15 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-01-27 18:22:15 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:22:15 [restartedMain] INFO  org.dozer.DozerBeanMapper - Initializing a new instance of dozer bean mapper.
+""2020-01-27 18:22:16 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-01-27 18:22:16 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoint(s) beneath base path '/actuator'
+""2020-01-27 18:22:16 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+""2020-01-27 18:22:16 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-01-27 18:22:16 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-01-27 18:22:16 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+""2020-01-27 18:22:16 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+""2020-01-27 18:22:16 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+""2020-01-27 18:22:16 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/datamaestra'
+""2020-01-27 18:22:16 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Started MsDatamaestraApplication in 1.616 seconds (JVM running for 436019.17)
+""2020-01-27 18:22:16 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-01-27 18:27:33 [Thread-1401] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-01-27 18:27:33 [Thread-1401] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:27:33 [Thread-1401] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-253 - Shutdown initiated...
+""2020-01-27 18:27:33 [Thread-1401] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-253 - Shutdown completed.
+""2020-01-27 18:27:35 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Starting MsDatamaestraApplication on MIN-S18025478 with PID 12836 (D:\Aplicativo\ms-datamaestra\target\classes started by acajusol in D:\Aplicativo\ms-datamaestra)
+""2020-01-27 18:27:35 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - No active profile set, falling back to default profiles: default
+""2020-01-27 18:27:35 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-01-27 18:27:35 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48ms. Found 13 JPA repository interfaces.
+""2020-01-27 18:27:35 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-01-27 18:27:35 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2020-01-27 18:27:35 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+""2020-01-27 18:27:35 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-01-27 18:27:35 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-92].[localhost].[/datamaestra] - Initializing Spring embedded WebApplicationContext
+""2020-01-27 18:27:35 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 541 ms
+""2020-01-27 18:27:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-254 - Starting...
+""2020-01-27 18:27:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-254 - Start completed.
+""2020-01-27 18:27:36 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-01-27 18:27:36 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+""2020-01-27 18:27:36 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-01-27 18:27:36 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:27:36 [restartedMain] INFO  org.dozer.DozerBeanMapper - Initializing a new instance of dozer bean mapper.
+""2020-01-27 18:27:36 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-01-27 18:27:36 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoint(s) beneath base path '/actuator'
+""2020-01-27 18:27:36 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+""2020-01-27 18:27:36 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-01-27 18:27:36 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-01-27 18:27:36 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+""2020-01-27 18:27:36 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+""2020-01-27 18:27:36 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+""2020-01-27 18:27:36 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/datamaestra'
+""2020-01-27 18:27:36 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Started MsDatamaestraApplication in 1.612 seconds (JVM running for 436339.693)
+""2020-01-27 18:27:36 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-01-27 18:30:22 [Thread-1407] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-01-27 18:30:22 [Thread-1407] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:30:22 [Thread-1407] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-254 - Shutdown initiated...
+""2020-01-27 18:30:22 [Thread-1407] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-254 - Shutdown completed.
+""2020-01-27 18:30:23 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Starting MsDatamaestraApplication on MIN-S18025478 with PID 12836 (D:\Aplicativo\ms-datamaestra\target\classes started by acajusol in D:\Aplicativo\ms-datamaestra)
+""2020-01-27 18:30:23 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - No active profile set, falling back to default profiles: default
+""2020-01-27 18:30:23 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-01-27 18:30:23 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 13 JPA repository interfaces.
+""2020-01-27 18:30:23 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-01-27 18:30:23 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2020-01-27 18:30:23 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+""2020-01-27 18:30:23 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-01-27 18:30:23 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-92].[localhost].[/datamaestra] - Initializing Spring embedded WebApplicationContext
+""2020-01-27 18:30:23 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 521 ms
+""2020-01-27 18:30:24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-255 - Starting...
+""2020-01-27 18:30:24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-255 - Start completed.
+""2020-01-27 18:30:24 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-01-27 18:30:24 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+""2020-01-27 18:30:24 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-01-27 18:30:24 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:30:24 [restartedMain] INFO  org.dozer.DozerBeanMapper - Initializing a new instance of dozer bean mapper.
+""2020-01-27 18:30:24 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-01-27 18:30:24 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoint(s) beneath base path '/actuator'
+""2020-01-27 18:30:24 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+""2020-01-27 18:30:24 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-01-27 18:30:24 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-01-27 18:30:24 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+""2020-01-27 18:30:24 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+""2020-01-27 18:30:24 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+""2020-01-27 18:30:24 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/datamaestra'
+""2020-01-27 18:30:24 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Started MsDatamaestraApplication in 1.494 seconds (JVM running for 436507.657)
+""2020-01-27 18:30:24 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-01-27 18:31:25 [Thread-1413] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-01-27 18:31:25 [Thread-1413] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:31:25 [Thread-1413] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-255 - Shutdown initiated...
+""2020-01-27 18:31:25 [Thread-1413] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-255 - Shutdown completed.
+""2020-01-27 18:31:26 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Starting MsDatamaestraApplication on MIN-S18025478 with PID 12836 (D:\Aplicativo\ms-datamaestra\target\classes started by acajusol in D:\Aplicativo\ms-datamaestra)
+""2020-01-27 18:31:26 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - No active profile set, falling back to default profiles: default
+""2020-01-27 18:31:26 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-01-27 18:31:26 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 13 JPA repository interfaces.
+""2020-01-27 18:31:26 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-01-27 18:31:26 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2020-01-27 18:31:26 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+""2020-01-27 18:31:26 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-01-27 18:31:26 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-92].[localhost].[/datamaestra] - Initializing Spring embedded WebApplicationContext
+""2020-01-27 18:31:26 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 515 ms
+""2020-01-27 18:31:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-256 - Starting...
+""2020-01-27 18:31:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-256 - Start completed.
+""2020-01-27 18:31:27 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-01-27 18:31:27 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+""2020-01-27 18:31:27 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-01-27 18:31:27 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:31:27 [restartedMain] INFO  org.dozer.DozerBeanMapper - Initializing a new instance of dozer bean mapper.
+""2020-01-27 18:31:27 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-01-27 18:31:27 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoint(s) beneath base path '/actuator'
+""2020-01-27 18:31:27 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+""2020-01-27 18:31:27 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-01-27 18:31:27 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-01-27 18:31:27 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+""2020-01-27 18:31:27 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+""2020-01-27 18:31:27 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+""2020-01-27 18:31:27 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/datamaestra'
+""2020-01-27 18:31:27 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Started MsDatamaestraApplication in 1.489 seconds (JVM running for 436570.677)
+""2020-01-27 18:31:27 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-01-27 18:31:42 [Thread-1419] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-01-27 18:31:42 [Thread-1419] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:31:42 [Thread-1419] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-256 - Shutdown initiated...
+""2020-01-27 18:31:42 [Thread-1419] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-256 - Shutdown completed.
+""2020-01-27 18:31:43 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Starting MsDatamaestraApplication on MIN-S18025478 with PID 12836 (D:\Aplicativo\ms-datamaestra\target\classes started by acajusol in D:\Aplicativo\ms-datamaestra)
+""2020-01-27 18:31:43 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - No active profile set, falling back to default profiles: default
+""2020-01-27 18:31:43 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-01-27 18:31:43 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 13 JPA repository interfaces.
+""2020-01-27 18:31:43 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-01-27 18:31:44 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2020-01-27 18:31:44 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+""2020-01-27 18:31:44 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-01-27 18:31:44 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-92].[localhost].[/datamaestra] - Initializing Spring embedded WebApplicationContext
+""2020-01-27 18:31:44 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 519 ms
+""2020-01-27 18:31:44 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-257 - Starting...
+""2020-01-27 18:31:44 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-257 - Start completed.
+""2020-01-27 18:31:44 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-01-27 18:31:44 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+""2020-01-27 18:31:44 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-01-27 18:31:44 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:31:44 [restartedMain] INFO  org.dozer.DozerBeanMapper - Initializing a new instance of dozer bean mapper.
+""2020-01-27 18:31:44 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-01-27 18:31:44 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoint(s) beneath base path '/actuator'
+""2020-01-27 18:31:44 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+""2020-01-27 18:31:44 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-01-27 18:31:44 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-01-27 18:31:44 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+""2020-01-27 18:31:44 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+""2020-01-27 18:31:44 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+""2020-01-27 18:31:44 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/datamaestra'
+""2020-01-27 18:31:44 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Started MsDatamaestraApplication in 1.515 seconds (JVM running for 436587.78)
+""2020-01-27 18:31:44 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-01-27 18:32:33 [http-nio-8084-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-92].[localhost].[/datamaestra] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2020-01-27 18:32:33 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2020-01-27 18:32:33 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+""2020-01-27 18:32:42 [http-nio-8084-exec-6] INFO  pe.gob.mininter.msdatamaestra.integracion.resources.DepartamentoRestController - Ejecución del endpoint GET: /departamentos
+""2020-01-27 18:40:22 [Thread-1425] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-01-27 18:40:22 [Thread-1425] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:40:22 [Thread-1425] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-257 - Shutdown initiated...
+""2020-01-27 18:40:22 [Thread-1425] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-257 - Shutdown completed.
+""2020-01-27 18:40:23 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Starting MsDatamaestraApplication on MIN-S18025478 with PID 12836 (D:\Aplicativo\ms-datamaestra\target\classes started by acajusol in D:\Aplicativo\ms-datamaestra)
+""2020-01-27 18:40:23 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - No active profile set, falling back to default profiles: default
+""2020-01-27 18:40:24 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-01-27 18:40:24 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 13 JPA repository interfaces.
+""2020-01-27 18:40:24 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-01-27 18:40:24 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2020-01-27 18:40:24 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+""2020-01-27 18:40:24 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-01-27 18:40:24 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-92].[localhost].[/datamaestra] - Initializing Spring embedded WebApplicationContext
+""2020-01-27 18:40:24 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 502 ms
+""2020-01-27 18:40:24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-258 - Starting...
+""2020-01-27 18:40:24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-258 - Start completed.
+""2020-01-27 18:40:24 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-01-27 18:40:24 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+""2020-01-27 18:40:24 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-01-27 18:40:24 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:40:24 [restartedMain] INFO  org.dozer.DozerBeanMapper - Initializing a new instance of dozer bean mapper.
+""2020-01-27 18:40:24 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-01-27 18:40:24 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoint(s) beneath base path '/actuator'
+""2020-01-27 18:40:24 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+""2020-01-27 18:40:24 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-01-27 18:40:24 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-01-27 18:40:25 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+""2020-01-27 18:40:25 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+""2020-01-27 18:40:25 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+""2020-01-27 18:40:25 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/datamaestra'
+""2020-01-27 18:40:25 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Started MsDatamaestraApplication in 1.429 seconds (JVM running for 437107.906)
+""2020-01-27 18:40:25 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-01-27 18:40:44 [Thread-1431] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-01-27 18:40:44 [Thread-1431] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:40:44 [Thread-1431] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-258 - Shutdown initiated...
+""2020-01-27 18:40:44 [Thread-1431] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-258 - Shutdown completed.
+""2020-01-27 18:40:45 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Starting MsDatamaestraApplication on MIN-S18025478 with PID 12836 (D:\Aplicativo\ms-datamaestra\target\classes started by acajusol in D:\Aplicativo\ms-datamaestra)
+""2020-01-27 18:40:45 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - No active profile set, falling back to default profiles: default
+""2020-01-27 18:40:45 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-01-27 18:40:45 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 13 JPA repository interfaces.
+""2020-01-27 18:40:45 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-01-27 18:40:45 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2020-01-27 18:40:45 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+""2020-01-27 18:40:45 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-01-27 18:40:45 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-92].[localhost].[/datamaestra] - Initializing Spring embedded WebApplicationContext
+""2020-01-27 18:40:45 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 500 ms
+""2020-01-27 18:40:46 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-259 - Starting...
+""2020-01-27 18:40:46 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-259 - Start completed.
+""2020-01-27 18:40:46 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-01-27 18:40:46 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+""2020-01-27 18:40:46 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-01-27 18:40:46 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:40:46 [restartedMain] INFO  org.dozer.DozerBeanMapper - Initializing a new instance of dozer bean mapper.
+""2020-01-27 18:40:46 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-01-27 18:40:46 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoint(s) beneath base path '/actuator'
+""2020-01-27 18:40:46 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+""2020-01-27 18:40:46 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-01-27 18:40:46 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-01-27 18:40:46 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+""2020-01-27 18:40:46 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+""2020-01-27 18:40:46 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+""2020-01-27 18:40:46 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/datamaestra'
+""2020-01-27 18:40:46 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Started MsDatamaestraApplication in 1.464 seconds (JVM running for 437129.684)
+""2020-01-27 18:40:46 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-01-27 18:42:12 [Thread-1437] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-01-27 18:42:12 [Thread-1437] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:42:12 [Thread-1437] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-259 - Shutdown initiated...
+""2020-01-27 18:42:12 [Thread-1437] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-259 - Shutdown completed.
+""2020-01-27 18:42:15 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Starting MsDatamaestraApplication on MIN-S18025478 with PID 12836 (D:\Aplicativo\ms-datamaestra\target\classes started by acajusol in D:\Aplicativo\ms-datamaestra)
+""2020-01-27 18:42:15 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - No active profile set, falling back to default profiles: default
+""2020-01-27 18:42:15 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-01-27 18:42:15 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 13 JPA repository interfaces.
+""2020-01-27 18:42:15 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-01-27 18:42:15 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2020-01-27 18:42:15 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+""2020-01-27 18:42:15 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-01-27 18:42:15 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-92].[localhost].[/datamaestra] - Initializing Spring embedded WebApplicationContext
+""2020-01-27 18:42:15 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 504 ms
+""2020-01-27 18:42:15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-260 - Starting...
+""2020-01-27 18:42:15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-260 - Start completed.
+""2020-01-27 18:42:15 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-01-27 18:42:15 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+""2020-01-27 18:42:16 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-01-27 18:42:16 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:42:16 [restartedMain] INFO  org.dozer.DozerBeanMapper - Initializing a new instance of dozer bean mapper.
+""2020-01-27 18:42:16 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-01-27 18:42:16 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoint(s) beneath base path '/actuator'
+""2020-01-27 18:42:16 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+""2020-01-27 18:42:16 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-01-27 18:42:16 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2020-01-27 18:42:16 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+""2020-01-27 18:42:16 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+""2020-01-27 18:42:16 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+""2020-01-27 18:42:16 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path '/datamaestra'
+""2020-01-27 18:42:16 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Started MsDatamaestraApplication in 1.489 seconds (JVM running for 437219.527)
+""2020-01-27 18:42:16 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2020-01-27 18:43:05 [Thread-1443] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-01-27 18:43:05 [Thread-1443] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:43:05 [Thread-1443] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-260 - Shutdown initiated...
+""2020-01-27 18:43:05 [Thread-1443] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-260 - Shutdown completed.
+""2020-01-27 18:43:06 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Starting MsDatamaestraApplication on MIN-S18025478 with PID 12836 (D:\Aplicativo\ms-datamaestra\target\classes started by acajusol in D:\Aplicativo\ms-datamaestra)
+""2020-01-27 18:43:06 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - No active profile set, falling back to default profiles: default
+""2020-01-27 18:43:06 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-01-27 18:43:06 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 13 JPA repository interfaces.
+""2020-01-27 18:43:07 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-01-27 18:43:07 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2020-01-27 18:43:07 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+""2020-01-27 18:43:07 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-01-27 18:43:07 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-92].[localhost].[/datamaestra] - Initializing Spring embedded WebApplicationContext
+""2020-01-27 18:43:07 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 506 ms
+""2020-01-27 18:43:07 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-261 - Starting...
+""2020-01-27 18:43:07 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-261 - Start completed.
+""2020-01-27 18:43:07 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-01-27 18:43:07 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+""2020-01-27 18:43:07 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-01-27 18:43:07 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:43:07 [restartedMain] INFO  org.dozer.DozerBeanMapper - Initializing a new instance of dozer bean mapper.
+""2020-01-27 18:43:07 [restartedMain] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'provinciaService': Unsatisfied dependency expressed through field 'provRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'provinciaRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List pe.gob.mininter.msdatamaestra.core.interfaces.ProvinciaRepository.getProvincia(java.lang.String) but parameter 'Optional[idDepartamento]' not found in annotated query 'select id_provincia,id_tm_departamento, prov.nombre, prov.estado, prov.usuario_creacion, prov.usuario_modificacion, prov.fecha_creacion, prov.fecha_modificacion, prov.ip_creacion, prov.ip_modificacion  
+from sisdatamaestrami.tm_provincia prov
+inner join sisdatamaestrami.tm_departamento dpto on dpto.id_departamento = prov.id_tm_departamento
+where prov.estado = 1 and id_tm_departamento = :idDep
+order by id_provincia asc'!
+""2020-01-27 18:43:07 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:43:07 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-261 - Shutdown initiated...
+""2020-01-27 18:43:07 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-261 - Shutdown completed.
+""2020-01-27 18:43:07 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+""2020-01-27 18:43:07 [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2020-01-27 18:43:07 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+" org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'provinciaService': Unsatisfied dependency expressed through field 'provRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'provinciaRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List pe.gob.mininter.msdatamaestra.core.interfaces.ProvinciaRepository.getProvincia(java.lang.String) but parameter 'Optional[idDepartamento]' not found in annotated query 'select id_provincia,id_tm_departamento, prov.nombre, prov.estado, prov.usuario_creacion, prov.usuario_modificacion, prov.fecha_creacion, prov.fecha_modificacion, prov.ip_creacion, prov.ip_modificacion  
+from sisdatamaestrami.tm_provincia prov
+inner join sisdatamaestrami.tm_departamento dpto on dpto.id_departamento = prov.id_tm_departamento
+where prov.estado = 1 and id_tm_departamento = :idDep
+order by id_provincia asc'!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at pe.gob.mininter.msdatamaestra.MsDatamaestraApplication.main(MsDatamaestraApplication.java:17) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_241]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'provinciaRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List pe.gob.mininter.msdatamaestra.core.interfaces.ProvinciaRepository.getProvincia(java.lang.String) but parameter 'Optional[idDepartamento]' not found in annotated query 'select id_provincia,id_tm_departamento, prov.nombre, prov.estado, prov.usuario_creacion, prov.usuario_modificacion, prov.fecha_creacion, prov.fecha_modificacion, prov.ip_creacion, prov.ip_modificacion  
+from sisdatamaestrami.tm_provincia prov
+inner join sisdatamaestrami.tm_departamento dpto on dpto.id_departamento = prov.id_tm_departamento
+where prov.estado = 1 and id_tm_departamento = :idDep
+order by id_provincia asc'!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 24 more
+Caused by: java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List pe.gob.mininter.msdatamaestra.core.interfaces.ProvinciaRepository.getProvincia(java.lang.String) but parameter 'Optional[idDepartamento]' not found in annotated query 'select id_provincia,id_tm_departamento, prov.nombre, prov.estado, prov.usuario_creacion, prov.usuario_modificacion, prov.fecha_creacion, prov.fecha_modificacion, prov.ip_creacion, prov.ip_modificacion  
+from sisdatamaestrami.tm_provincia prov
+inner join sisdatamaestrami.tm_departamento dpto on dpto.id_departamento = prov.id_tm_departamento
+where prov.estado = 1 and id_tm_departamento = :idDep
+order by id_provincia asc'!
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.assertParameterNamesInAnnotatedQuery(JpaQueryMethod.java:156) ~[spring-data-jpa-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.<init>(JpaQueryMethod.java:135) ~[spring-data-jpa-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:78) ~[spring-data-jpa-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:574) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:567) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:1.8.0_241]
+	at java.util.Iterator.forEachRemaining(Unknown Source) ~[?:1.8.0_241]
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Unknown Source) ~[?:1.8.0_241]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_241]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_241]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_241]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source) ~[?:1.8.0_241]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_241]
+	at java.util.stream.ReferencePipeline.collect(Unknown Source) ~[?:1.8.0_241]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:569) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:559) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at java.util.Optional.map(Unknown Source) ~[?:1.8.0_241]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:559) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:212) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.util.Lazy.get(Lazy.java:94) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121) ~[spring-data-jpa-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 24 more
+"2020-01-27 18:45:30 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Starting MsDatamaestraApplication on MIN-S18025478 with PID 12836 (D:\Aplicativo\ms-datamaestra\target\classes started by acajusol in D:\Aplicativo\ms-datamaestra)
+""2020-01-27 18:45:30 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - No active profile set, falling back to default profiles: default
+""2020-01-27 18:45:31 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-01-27 18:45:31 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 13 JPA repository interfaces.
+""2020-01-27 18:45:31 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-01-27 18:45:31 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2020-01-27 18:45:31 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+""2020-01-27 18:45:31 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-01-27 18:45:31 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-93].[localhost].[/datamaestra] - Initializing Spring embedded WebApplicationContext
+""2020-01-27 18:45:31 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 505 ms
+""2020-01-27 18:45:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-262 - Starting...
+""2020-01-27 18:45:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-262 - Start completed.
+""2020-01-27 18:45:31 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-01-27 18:45:31 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+""2020-01-27 18:45:31 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-01-27 18:45:31 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:45:31 [restartedMain] INFO  org.dozer.DozerBeanMapper - Initializing a new instance of dozer bean mapper.
+""2020-01-27 18:45:31 [restartedMain] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'provinciaService': Unsatisfied dependency expressed through field 'provRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'provinciaRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List pe.gob.mininter.msdatamaestra.core.interfaces.ProvinciaRepository.getProvincia(java.lang.String) but parameter 'Optional[idDepartamento]' not found in annotated query 'select id_provincia,id_tm_departamento, prov.nombre, prov.estado, prov.usuario_creacion, prov.usuario_modificacion, prov.fecha_creacion, prov.fecha_modificacion, prov.ip_creacion, prov.ip_modificacion  
+from sisdatamaestrami.tm_provincia prov
+inner join sisdatamaestrami.tm_departamento dpto on dpto.id_departamento = prov.id_tm_departamento
+where prov.estado = 1 and id_tm_departamento = :idDep
+order by id_provincia asc'!
+""2020-01-27 18:45:31 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:45:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-262 - Shutdown initiated...
+""2020-01-27 18:45:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-262 - Shutdown completed.
+""2020-01-27 18:45:31 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+""2020-01-27 18:45:31 [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2020-01-27 18:45:31 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+" org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'provinciaService': Unsatisfied dependency expressed through field 'provRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'provinciaRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List pe.gob.mininter.msdatamaestra.core.interfaces.ProvinciaRepository.getProvincia(java.lang.String) but parameter 'Optional[idDepartamento]' not found in annotated query 'select id_provincia,id_tm_departamento, prov.nombre, prov.estado, prov.usuario_creacion, prov.usuario_modificacion, prov.fecha_creacion, prov.fecha_modificacion, prov.ip_creacion, prov.ip_modificacion  
+from sisdatamaestrami.tm_provincia prov
+inner join sisdatamaestrami.tm_departamento dpto on dpto.id_departamento = prov.id_tm_departamento
+where prov.estado = 1 and id_tm_departamento = :idDep
+order by id_provincia asc'!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at pe.gob.mininter.msdatamaestra.MsDatamaestraApplication.main(MsDatamaestraApplication.java:17) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_241]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'provinciaRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List pe.gob.mininter.msdatamaestra.core.interfaces.ProvinciaRepository.getProvincia(java.lang.String) but parameter 'Optional[idDepartamento]' not found in annotated query 'select id_provincia,id_tm_departamento, prov.nombre, prov.estado, prov.usuario_creacion, prov.usuario_modificacion, prov.fecha_creacion, prov.fecha_modificacion, prov.ip_creacion, prov.ip_modificacion  
+from sisdatamaestrami.tm_provincia prov
+inner join sisdatamaestrami.tm_departamento dpto on dpto.id_departamento = prov.id_tm_departamento
+where prov.estado = 1 and id_tm_departamento = :idDep
+order by id_provincia asc'!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 24 more
+Caused by: java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List pe.gob.mininter.msdatamaestra.core.interfaces.ProvinciaRepository.getProvincia(java.lang.String) but parameter 'Optional[idDepartamento]' not found in annotated query 'select id_provincia,id_tm_departamento, prov.nombre, prov.estado, prov.usuario_creacion, prov.usuario_modificacion, prov.fecha_creacion, prov.fecha_modificacion, prov.ip_creacion, prov.ip_modificacion  
+from sisdatamaestrami.tm_provincia prov
+inner join sisdatamaestrami.tm_departamento dpto on dpto.id_departamento = prov.id_tm_departamento
+where prov.estado = 1 and id_tm_departamento = :idDep
+order by id_provincia asc'!
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.assertParameterNamesInAnnotatedQuery(JpaQueryMethod.java:156) ~[spring-data-jpa-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.<init>(JpaQueryMethod.java:135) ~[spring-data-jpa-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:78) ~[spring-data-jpa-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:574) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:567) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:1.8.0_241]
+	at java.util.Iterator.forEachRemaining(Unknown Source) ~[?:1.8.0_241]
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Unknown Source) ~[?:1.8.0_241]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_241]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_241]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_241]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source) ~[?:1.8.0_241]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_241]
+	at java.util.stream.ReferencePipeline.collect(Unknown Source) ~[?:1.8.0_241]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:569) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:559) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at java.util.Optional.map(Unknown Source) ~[?:1.8.0_241]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:559) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:212) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.util.Lazy.get(Lazy.java:94) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121) ~[spring-data-jpa-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 24 more
+"2020-01-27 18:46:01 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - Starting MsDatamaestraApplication on MIN-S18025478 with PID 12836 (D:\Aplicativo\ms-datamaestra\target\classes started by acajusol in D:\Aplicativo\ms-datamaestra)
+""2020-01-27 18:46:01 [restartedMain] INFO  pe.gob.mininter.msdatamaestra.MsDatamaestraApplication - No active profile set, falling back to default profiles: default
+""2020-01-27 18:46:02 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2020-01-27 18:46:02 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 13 JPA repository interfaces.
+""2020-01-27 18:46:02 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-01-27 18:46:02 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+""2020-01-27 18:46:02 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+""2020-01-27 18:46:02 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+""2020-01-27 18:46:02 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-94].[localhost].[/datamaestra] - Initializing Spring embedded WebApplicationContext
+""2020-01-27 18:46:02 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 516 ms
+""2020-01-27 18:46:02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-263 - Starting...
+""2020-01-27 18:46:02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-263 - Start completed.
+""2020-01-27 18:46:02 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-01-27 18:46:02 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+""2020-01-27 18:46:02 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-01-27 18:46:02 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:46:02 [restartedMain] INFO  org.dozer.DozerBeanMapper - Initializing a new instance of dozer bean mapper.
+""2020-01-27 18:46:02 [restartedMain] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'provinciaService': Unsatisfied dependency expressed through field 'provRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'provinciaRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List pe.gob.mininter.msdatamaestra.core.interfaces.ProvinciaRepository.getProvincia(java.lang.String) but parameter 'Optional[idDepartamento]' not found in annotated query 'select id_provincia,id_tm_departamento, prov.nombre, prov.estado, prov.usuario_creacion, prov.usuario_modificacion, prov.fecha_creacion, prov.fecha_modificacion, prov.ip_creacion, prov.ip_modificacion  
+from sisdatamaestrami.tm_provincia prov
+inner join sisdatamaestrami.tm_departamento dpto on dpto.id_departamento = prov.id_tm_departamento
+where prov.estado = 1 and id_tm_departamento = :idDep
+order by id_provincia asc'!
+""2020-01-27 18:46:02 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-01-27 18:46:02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-263 - Shutdown initiated...
+""2020-01-27 18:46:02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-263 - Shutdown completed.
+""2020-01-27 18:46:02 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+""2020-01-27 18:46:02 [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2020-01-27 18:46:02 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+" org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'provinciaService': Unsatisfied dependency expressed through field 'provRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'provinciaRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List pe.gob.mininter.msdatamaestra.core.interfaces.ProvinciaRepository.getProvincia(java.lang.String) but parameter 'Optional[idDepartamento]' not found in annotated query 'select id_provincia,id_tm_departamento, prov.nombre, prov.estado, prov.usuario_creacion, prov.usuario_modificacion, prov.fecha_creacion, prov.fecha_modificacion, prov.ip_creacion, prov.ip_modificacion  
+from sisdatamaestrami.tm_provincia prov
+inner join sisdatamaestrami.tm_departamento dpto on dpto.id_departamento = prov.id_tm_departamento
+where prov.estado = 1 and id_tm_departamento = :idDep
+order by id_provincia asc'!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at pe.gob.mininter.msdatamaestra.MsDatamaestraApplication.main(MsDatamaestraApplication.java:17) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_241]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'provinciaRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List pe.gob.mininter.msdatamaestra.core.interfaces.ProvinciaRepository.getProvincia(java.lang.String) but parameter 'Optional[idDepartamento]' not found in annotated query 'select id_provincia,id_tm_departamento, prov.nombre, prov.estado, prov.usuario_creacion, prov.usuario_modificacion, prov.fecha_creacion, prov.fecha_modificacion, prov.ip_creacion, prov.ip_modificacion  
+from sisdatamaestrami.tm_provincia prov
+inner join sisdatamaestrami.tm_departamento dpto on dpto.id_departamento = prov.id_tm_departamento
+where prov.estado = 1 and id_tm_departamento = :idDep
+order by id_provincia asc'!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 24 more
+Caused by: java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List pe.gob.mininter.msdatamaestra.core.interfaces.ProvinciaRepository.getProvincia(java.lang.String) but parameter 'Optional[idDepartamento]' not found in annotated query 'select id_provincia,id_tm_departamento, prov.nombre, prov.estado, prov.usuario_creacion, prov.usuario_modificacion, prov.fecha_creacion, prov.fecha_modificacion, prov.ip_creacion, prov.ip_modificacion  
+from sisdatamaestrami.tm_provincia prov
+inner join sisdatamaestrami.tm_departamento dpto on dpto.id_departamento = prov.id_tm_departamento
+where prov.estado = 1 and id_tm_departamento = :idDep
+order by id_provincia asc'!
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.assertParameterNamesInAnnotatedQuery(JpaQueryMethod.java:156) ~[spring-data-jpa-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.<init>(JpaQueryMethod.java:135) ~[spring-data-jpa-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:78) ~[spring-data-jpa-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:574) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:567) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:1.8.0_241]
+	at java.util.Iterator.forEachRemaining(Unknown Source) ~[?:1.8.0_241]
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Unknown Source) ~[?:1.8.0_241]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_241]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_241]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_241]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source) ~[?:1.8.0_241]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_241]
+	at java.util.stream.ReferencePipeline.collect(Unknown Source) ~[?:1.8.0_241]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:569) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:559) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at java.util.Optional.map(Unknown Source) ~[?:1.8.0_241]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:559) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:212) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.util.Lazy.get(Lazy.java:94) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300) ~[spring-data-commons-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121) ~[spring-data-jpa-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 24 more
